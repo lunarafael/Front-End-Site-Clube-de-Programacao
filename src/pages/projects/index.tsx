@@ -5,7 +5,7 @@ import React from "react";
 import { Projbox } from "../projects/components/projbox";
 import imagem from "./Quadro.png";
 import { useState } from "react";
-
+import "../home/home.scss";
 const apiTeste = {
 	imgUrl:
 		"https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -20,7 +20,7 @@ export function Projects() {
 		<main className="max-w-4xl mx-auto my-20">
 			<div className="text-white flex flex-col items-center">
 				<h1 className="my-8 font-Roboto font-bold xsm:text-5xl sm:text-5xl text-7xl ">
-					<span className="text-orange">P</span>ROJETOS
+					<span className="text-orange">P</span><span className="teste">R</span>OJETOS
 				</h1>
 				<p className="text-center font-Manrope mx-6 font-base text-xl sm:text-lg xsm:text-lg">
 					O clube de progamação do SENAI/CIMATEC além de realizar torneios e

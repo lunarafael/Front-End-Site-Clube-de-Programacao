@@ -42,4 +42,4 @@ export const apiGetAllWorkShops = () => [
 		memberName: "COMODÃO",
 		workshopTitle: "WorkShop Typescript",
 	},
-]
+];
